@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" src="scripts.js"></script>
+
+<head>
+<meta charset="utf-8"/>
+  <title>
+  Notification Timer
+  </title>
+</head>
+
+<div class="wrapper">
+  <p>
+    <label for="userminutes">How long between notifications? <span style="color:gray;">(in minutes)</span></label>
+    <input type="number" id="userminutes" value =".05" max="120">
+  </p>
+  <p>
+    <label for="notifytext">What should the notification say?</label>
+    <input type="text" id="notifytext">
+
+    <div id="buttons">
+      <button type="submit" id="userstart" value="start">Start Notifying</button>
+      <button type="submit" id="userstop" value="stop">Stop Notifying</button>
+    </div>
+
+</div>
