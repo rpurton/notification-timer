@@ -2,7 +2,7 @@
 
 Browser notification custom timer
 
-Useful for getting up every x minutes/hours to stretch, rest your eyes, etc.
+Useful for reminders to leave your desk every x minutes/hours to stretch, rest your eyes, or do some pushups.
 
 Specify how often you want to be notified, and what you want the notification to say.
 
