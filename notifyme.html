@@ -11,17 +11,22 @@
 </head>
 
 <div class="wrapper">
-  <p>
-    <label for="userminutes">How long between notifications? <span style="color:gray;">(in minutes)</span></label>
-    <input type="number" id="userminutes" value =".05" max="120">
-  </p>
-  <p>
-    <label for="notifytext">What should the notification say?</label>
-    <input type="text" id="notifytext">
+  <div class="inner">
+    <p>
+      <label for="userminutes">How long between notifications? <span style="color:gray;">(in minutes)</span></label>
+      <input type="number" id="userminutes" value =".05" max="120">
+    </p>
+    <p>
+      <label for="notifytext">What should the notification say?</label>
+      <input type="text" placeholder="Time is up!" id="notifytext">
 
-    <div id="buttons">
-      <button type="submit" id="userstart" value="start">Start Notifying</button>
-      <button type="submit" id="userstop" value="stop">Stop Notifying</button>
-    </div>
+      <div id="buttons">
+        <button type="submit" id="userstart" value="start">Start Notifying</button>
+        <button type="submit" id="userstop" value="stop">Stop Notifying</button>
+      </div>
 
-</div>
+      <div id="timer">
+      </div>
+
+  </div> <!--inner-->
+</div> <!--wrapper-->
