@@ -10,6 +10,6 @@ Specify how often you want to be notified, and what you want the notification to
 
 <h3>To do:</h3>
 <ul>
-  <li>notification text input (currently not working)</li>
+  <li><strike>notification text input (currently not working)</strike></li>
   <li>countdown timer on page</li>
 </ul>
