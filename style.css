@@ -28,9 +28,18 @@ input {
 }
 
 p {
-  margin: 0em 0em 2em 0em;
+  margin: 0em 0em 1em 0em;
 }
 
 button {
   height: 2em;
+}
+
+.timer-wrap {
+  margin:2em 0em 1em 0em;
+  font-size:2em;
+}
+
+#timer {
+  font-size: 4em;
 }
