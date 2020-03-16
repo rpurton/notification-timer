@@ -12,5 +12,6 @@ Specify how often you want to be notified, and what you want the notification to
 <ul>
   <li><strike>notification text input (currently not working)</strike></li>
   <li><strike>countdown timer on page</strike></li>
+  <li>implement hours and minutes fields for users</li>
   <li>make it look pretty</li>
 </ul>
