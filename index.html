@@ -12,23 +12,38 @@
 
 <div class="wrapper">
   <div class="inner">
-    <p>
-      <label for="userminutes">How long between notifications? <span style="color:gray;">(in minutes)</span></label>
-      <input type="number" id="userminutes" value =".05" max="120">
-    </p>
-    <p>
-      <label for="notifytext">What should the notification say?</label>
-      <input type="text" placeholder="Time is up!" id="notifytext">
+    <div class="form-box">
+        <h1>Notification Timer</h1>
 
-      <div id="buttons">
-        <button type="submit" id="userstart" value="start">Start Notifying</button>
-        <button type="submit" id="userstop" value="stop">Stop Notifying</button>
-      </div>
+        <form>
+          <p>How long between notifications?</p>
+              <label for="userhours">hours</label>
+                <input type="number" id="userhours" max="12">
+
+              <label for="userminutes">minutes</label>
+                <input type="number" id="userminutes" max="60" value="0">
+
+          <p>
+            <label for="notifytext">
+              <p>What should the notification say?</p>
+              <p><input type="text" value="Time is up!" id="notifytext"></p>
+            </label>
+          </p>
+
+          <div id="buttons">
+            <button type="button" id="userstart" value="start">
+              Start Timer
+            </button>
+            <button type="button" id="userstop" value="stop">
+              Stop Timer
+            </button>
+          </div>
+      </form>
 
       <div class="timer-wrap">
-        <p>Time remaining:</p>
-        <p id="timer"></p>
+        <p id="timer">00:00:00</p>
       </div>
 
+    </div> <!--form-box-->
   </div> <!--inner-->
 </div> <!--wrapper-->
